@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: peng asus, caitong, LIC=X1ENN-YE933-PEXH1-CHUTU-43UTP-YIMZ6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\asus\Desktop\standard x - out\Project\standard.uvprojx
+Project File Date:  08/18/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Build target 'standard'
+compiling main.c...
+..\user\main.c(34): warning:  #1295-D: Deprecated declaration return_zero - give arg types
+  u8 return_zero();
+..\user\main.c(69): warning:  #69-D: integer conversion resulted in truncation
+  	motora1=get_Chassis_Motor_Measure_Point(0x201);
+..\user\main.c(70): warning:  #69-D: integer conversion resulted in truncation
+  	motora2=get_Chassis_Motor_Measure_Point(0x202);
+..\user\main.c(71): warning:  #69-D: integer conversion resulted in truncation
+  	motora3=get_Chassis_Motor_Measure_Point(0x203);
+..\user\main.c(72): warning:  #69-D: integer conversion resulted in truncation
+  	motora4=get_Chassis_Motor_Measure_Point(0x204);//???Ìµç»?1£¬2£¬3£¬4·µ??
+..\user\main.c(75): warning:  #69-D: integer conversion resulted in truncation
+  	motora7=get_Chassis_Motor_Measure_Point(0x203);
+..\user\main.c(76): warning:  #69-D: integer conversion resulted in truncation
+  	motora8=get_Chassis_Motor_Measure_Point(0x204);
+..\user\main.c(817): warning:  #223-D: function "abs" declared implicitly
+  				if(abs(tx-motor3->ecd)<8000)
+..\user\main.c(864): warning:  #186-D: pointless comparison of unsigned integer with zero
+  						if(flagx>=0)
+..\user\main.c(881): warning:  #186-D: pointless comparison of unsigned integer with zero
+  						if(flagy>=0)
+..\user\main.c(1024): warning:  #111-D: statement is unreachable
+  	if(0)
+..\user\main.c(1048): warning:  #111-D: statement is unreachable
+  	if(0)
+..\user\main.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=32142 RO-data=3458 RW-data=424 ZI-data=4376  
+".\Objects\Ooo.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_standard
+  D:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

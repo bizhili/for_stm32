@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: libizhi bizhi, bizhi, LIC=1WSBS-L8R6N-YBUE9-4HJ1R-FE8BN-18HAC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\qwe\Desktop\standard x\Project\standard.uvprojx
+Project File Date:  04/21/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'standard'
+compiling main.c...
+..\user\main.c(88): warning:  #69-D: integer conversion resulted in truncation
+  	motora1=get_Chassis_Motor_Measure_Point(0x201);
+..\user\main.c(90): warning:  #69-D: integer conversion resulted in truncation
+  	motora3=get_Chassis_Motor_Measure_Point(0x203);
+..\user\main.c(91): warning:  #69-D: integer conversion resulted in truncation
+  	motora4=get_Chassis_Motor_Measure_Point(0x204);//���̵��1��2��3��4����
+..\user\main.c(130): warning:  #177-D: variable "vs" was declared but never referenced
+  				int vx,vy,vs,tx=x*3,ty=y*2;
+..\user\main.c(167): warning:  #177-D: variable "vs" was declared but never referenced
+  					int vx,vy,vs,tx=22.3*(anglex-132),ty=-22.3*(angley-50);
+..\user\main.c(113): warning:  #177-D: variable "c" was declared but never referenced
+  					int x=rc1->rc.ch[0]-1024,y=rc1->rc.ch[1]-1024,z=rc1->rc.ch[2]-1024,w=rc1->rc.ch[3]-1024,c,d;
+..\user\main.c(113): warning:  #177-D: variable "d" was declared but never referenced
+  					int x=rc1->rc.ch[0]-1024,y=rc1->rc.ch[1]-1024,z=rc1->rc.ch[2]-1024,w=rc1->rc.ch[3]-1024,c,d;
+..\user\main.c(81): warning:  #177-D: variable "t" was declared but never referenced
+  	u8 t,len;
+..\user\main.c(81): warning:  #177-D: variable "len" was declared but never referenced
+  	u8 t,len;
+..\user\main.c(82): warning:  #177-D: variable "times" was declared but never referenced
+  	u16 times=0;//�����ڴ���
+..\user\main.c(98): warning:  #177-D: variable "adcx" was declared but never referenced
+  	u8 adcx;//���ڵ���adc
+..\user\main.c(99): warning:  #177-D: variable "Adc1" was declared but never referenced
+  	float Adc1;//���ڵ���adc
+..\user\main.c(103): warning:  #177-D: variable "b" was declared but never referenced
+  	int a=1000,b=-2500,e=0,count=0,vecd=a=motor3->ecd,h=0;//a��b����Ħ���ֿ���
+..\user\main.c: 14 warnings, 0 errors
+linking...
+Program Size: Code=21598 RO-data=3458 RW-data=388 ZI-data=4380  
+".\Objects\Ooo.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\qwe\Desktop\standard x\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
