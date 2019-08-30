@@ -4,7 +4,7 @@
 .\objects\led.o: ..\User\hardware\SPI\spi.h
 .\objects\led.o: ..\CMSIS\stm32f4xx.h
 .\objects\led.o: ..\CMSIS\core_cm4.h
-.\objects\led.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\led.o: ..\CMSIS\core_cmInstr.h
 .\objects\led.o: ..\CMSIS\core_cmFunc.h
 .\objects\led.o: ..\CMSIS\core_cmSimd.h
@@ -39,7 +39,7 @@
 .\objects\led.o: ..\FWLIB\inc\stm32f4xx_dma2d.h
 .\objects\led.o: ..\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\led.o: ..\FWLIB\inc\stm32f4xx_sai.h
-.\objects\led.o: D:\keil\ARM\ARMCC\Bin\..\include\math.h
+.\objects\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\led.o: ..\User\hardware\delay\delay.h
-.\objects\led.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\led.o: D:\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

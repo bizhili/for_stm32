@@ -1,7 +1,7 @@
 .\objects\main.o: ..\user\main.c
 .\objects\main.o: ..\CMSIS\stm32f4xx.h
 .\objects\main.o: ..\CMSIS\core_cm4.h
-.\objects\main.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: ..\CMSIS\core_cmInstr.h
 .\objects\main.o: ..\CMSIS\core_cmFunc.h
 .\objects\main.o: ..\CMSIS\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\main.o: ..\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\main.o: ..\FWLIB\inc\stm32f4xx_sai.h
 .\objects\main.o: ..\user\main.h
-.\objects\main.o: D:\keil\ARM\ARMCC\Bin\..\include\math.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\main.o: ..\User\hardware\ADC\adc.h
 .\objects\main.o: ..\User\hardware\BUZZER\buzzer.h
 .\objects\main.o: ..\User\hardware\CAN\can.h
@@ -55,7 +55,7 @@
 .\objects\main.o: ..\User\APP\CAN_Receive\CAN_Receive.h
 .\objects\main.o: ..\User\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\main.o: ..\User\FreeRTOS\include\FreeRTOS.h
-.\objects\main.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\main.o: ..\User\FreeRTOS\include\projdefs.h
 .\objects\main.o: ..\User\FreeRTOS\include\portable.h
 .\objects\main.o: ..\User\FreeRTOS\include\deprecated_definitions.h

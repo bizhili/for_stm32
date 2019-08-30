@@ -916,10 +916,11 @@ ARM Macro Assembler    Page 15
 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=.\objects\startup_stm32f427xx.d -o.\objects\startup_stm32f427xx
-.o -I.\RTE\_standard -ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS
-\Device\ST\STM32F4xx\Include -ID:\keil\ARM\CMSIS\Include --predefine="__UVISION
-_VERSION SETA 525" --predefine="STM32F427xx SETA 1" --list=.\listings\startup_s
-tm32f427xx.lst ..\startup\startup_stm32f427xx.s
+.o -IC:\Users\qwe\Desktop\for_stm32\stm_32_f4\standard_heavy_carrier\Project\RT
+E -IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32
+F4xx\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__UVISION_VERSION SETA
+ 518" --predefine="STM32F427xx SETA 1" --list=.\listings\startup_stm32f427xx.ls
+t ..\startup\startup_stm32f427xx.s
 
 
 

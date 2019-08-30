@@ -3,7 +3,7 @@
 .\objects\sensor1.o: ..\User\main.h
 .\objects\sensor1.o: ..\CMSIS\stm32f4xx.h
 .\objects\sensor1.o: ..\CMSIS\core_cm4.h
-.\objects\sensor1.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sensor1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\sensor1.o: ..\CMSIS\core_cmInstr.h
 .\objects\sensor1.o: ..\CMSIS\core_cmFunc.h
 .\objects\sensor1.o: ..\CMSIS\core_cmSimd.h

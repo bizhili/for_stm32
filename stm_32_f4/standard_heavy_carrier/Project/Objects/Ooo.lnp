@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp
+--cpu Cortex-M4.fp
 ".\objects\startup_stm32f427xx.o"
 ".\objects\stm32f4xx_it.o"
 ".\objects\system_stm32f4xx.o"
@@ -92,6 +92,6 @@
 ".\objects\user_task.o"
 ".\objects\sensor1.o"
 --strict --scatter ".\Objects\Ooo.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\Ooo.map" -o .\Objects\Ooo.axf

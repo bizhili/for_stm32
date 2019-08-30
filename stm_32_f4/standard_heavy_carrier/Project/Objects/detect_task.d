@@ -5,7 +5,7 @@
 .\objects\detect_task.o: ..\User\hardware\SPI\spi.h
 .\objects\detect_task.o: ..\CMSIS\stm32f4xx.h
 .\objects\detect_task.o: ..\CMSIS\core_cm4.h
-.\objects\detect_task.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\detect_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\detect_task.o: ..\CMSIS\core_cmInstr.h
 .\objects\detect_task.o: ..\CMSIS\core_cmFunc.h
 .\objects\detect_task.o: ..\CMSIS\core_cmSimd.h
@@ -45,7 +45,7 @@
 .\objects\detect_task.o: ..\User\hardware\RC\rc.h
 .\objects\detect_task.o: ..\User\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\detect_task.o: ..\User\FreeRTOS\include\FreeRTOS.h
-.\objects\detect_task.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\detect_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\detect_task.o: ..\User\FreeRTOS\include\projdefs.h
 .\objects\detect_task.o: ..\User\FreeRTOS\include\portable.h
 .\objects\detect_task.o: ..\User\FreeRTOS\include\deprecated_definitions.h
